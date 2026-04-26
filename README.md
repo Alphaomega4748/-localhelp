@@ -4,23 +4,27 @@
 
 ![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen) ![Coverage](https://img.shields.io/badge/Coverage-85%25-green) ![Docker](https://img.shields.io/badge/Docker-Ready-blue) ![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-orange)
 
-## Resume Bullet Points (copy-paste ready)
+LocalHelp — Full Stack Service Marketplace
+🔗 localhelp-pink.vercel.app | github.com/Alphaomega4748/-localhelp
+Stack: React.js • Node.js • MongoDB • Redis • Socket.io • Docker
 
-```
-• Built LocalHelp, a production-grade MERN service marketplace with GPS-based
-  worker discovery, real-time chat (Socket.io), and Razorpay payment integration
+- Built a service booking platform where customers can find
+  nearby electricians, plumbers using GPS-based search
 
-• Reduced API latency by 70% using Redis caching for geospatial worker queries
-  with MongoDB 2dsphere indexing
+- Used Redis to cache worker search results — made API
+  responses 70% faster
 
-• Implemented rate limiting (100 req/min), JWT auth with 3 roles, Helmet.js security
-  headers, and gzip compression — production-ready security & performance
+- Added real-time chat between customer and worker
+  using Socket.io WebSockets
 
-• Containerized with Docker + docker-compose (MongoDB + Redis + Backend + Frontend)
-  with CI/CD via GitHub Actions (automated tests + deployment)
+- Integrated Razorpay for online payments — UPI,
+  cards and net banking supported
 
-• Achieved 85% Jest test coverage with unit tests for auth, booking state machine,
-  Haversine distance calculation, and cache middleware
+- Secured APIs with JWT authentication, rate limiting
+  and Helmet.js security headers
+
+- Deployed with Docker, automated testing with Jest
+  and CI/CD via GitHub Actions
 ```
 
 ## Tech Stack
